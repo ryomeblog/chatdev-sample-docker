@@ -31,11 +31,19 @@ cd ChatDev
 python3 run.py --task "作ってほしい作品" --name "タイトル"
 ```
 
-## 
+## ゲームコピー
 完成後、以下コマンド実行。
 
 ```sh:コマンド
 cp -r ./WareHouse ../app/app-data
 ```
+
+## ゲーム起動
+
+```sh:コマンド
+cd WareHouse/<project_name>_DefaultOrganization_<timestamp>
+python3 main.py
+```
+
 
 
